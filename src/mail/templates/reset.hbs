@@ -1,0 +1,44 @@
+<body style='width:100%'>
+  <main style='width:70%; margin:auto; background-color:gray'>
+    <div
+      style='height:70px; text-align:center; width:100%; background-color:rgb(28, 28, 156); border-radius:20px 20px 0 0; display:flex; justify-content:center;'
+    >
+      <h3 style='color:white; text-align:center; font-size:1.2em'>
+        Account Activation
+      </h3>
+    </div>
+    <div
+      style='padding:2rem 1rem; font-size:1em; min-height:60vh; background-color:rgb(243, 239, 239); text-align:center;'
+    >
+      <p>
+        Hi {{name}},
+      </p>
+      <p>
+        You requested for a password reset, please kindly click the link below to proceed
+      </p>
+      <p>
+        <a href="{{url}}" target='_blank'>
+          Reset my password
+        </a>
+      </p>
+
+      <p>
+        If this is not you, please ensure to login and change your password
+      </p>
+      <p>
+        If you did not request this email you can safely ignore it.
+        <script>
+          document.write(new Date())
+        </script>
+      </p>
+    </div>
+
+    <footer
+      style='height:70px; text-align:center; width:100%; background-color:rgb(28, 28, 156); border-radius:0 0 20px 20px; display:flex; justify-content:center;'
+    >
+      <p style='color:white;'>
+        &copy;023 Tech Blog IO
+      </p>
+    </footer>
+  </main>
+</body>
